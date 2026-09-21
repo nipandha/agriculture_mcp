@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# SQLite databases and temporary files
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+
+# Environment and local configuration
+.env
+.env.*
+!.env.example
+
+# VS Code
+.vscode/
+
+# Coverage and test output
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
